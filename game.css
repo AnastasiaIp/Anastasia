@@ -1,0 +1,323 @@
+ body{
+    background-color: #a16d7f;
+    margin: 0;
+    padding: 0;
+ }
+
+ h1{
+    float: center;
+    background-color: pink;
+    width: 930px;
+    height: 15 0px;
+    position: absolute;
+    left: 0;
+    padding-left: 33%;
+    font-size: 100px;
+    margin-top: 0;
+    padding-top: 50px;
+    color: #a16d7f;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 4px 4px 12px #A16D7F;
+
+}
+.meow{
+    background-color: yellow;
+}
+.gav{
+    background-color: black;
+}
+#style{
+    text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206,7,188,0);
+    font-family: Impact, Charcoal, sans-serif;
+font-size: 47px;
+letter-spacing: -0.6px;
+word-spacing: 1px;
+color: #A16D7F;
+font-weight: bold;
+text-decoration: overline;
+font-style: normal;
+font-variant: small-caps;
+/*text-transform: uppercase;*/
+top: 5px;
+position: absolute;
+z-index: 11;
+}
+
+
+
+
+.modal, .bu{
+    position: absolute;
+    z-index: 11;
+    left: 40%;
+    height: 40px;
+    width: 100px;
+    
+        text-decoration: none;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(pink), to(#CE908E) );
+        font-weight: 7;
+        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, 2px 2px 2px rgba(0,0,0,0);
+        letter-spacing: 1px;
+        transition: all 2.0;
+}
+
+
+.m{
+    left: 50%;
+}
+.bu{
+    position: absolute;
+    z-index: 12;
+    left: 13%;
+    text-decoration: none;
+    background-color: rgb(63%, 43%, 50%, 0.3);
+    }
+.selected{
+    position: absolute;
+    z-index: 14;
+    background-color: blue;
+    color: red;
+    border: red 5px;
+
+}
+.linee {
+     position: absolute;
+    z-index: 5;
+    top: 110px;
+    left: 0px;
+    bottom: 0;
+    width: 1380px;
+    height: 40px;
+    background-color: rgb(63%, 43%, 50%, 0.3);
+}
+#win{
+    margin-left: 33;
+}
+ .courses{
+    position: relative;
+        height: 100vh;
+
+
+}
+
+.bg{
+    
+    position: absolute;
+    z-index: 4;
+
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    width: 480px;
+    background-color: rgb(199, 151, 190);
+
+}
+.bgg{
+    
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: 480px;
+    bottom: 0;
+    width: 420px;
+    height: 100%;
+    background-color: rgb(199, 151, 172);
+
+}
+.bg2{
+    
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: 900px;
+    bottom: 0;
+    width: 480px;
+    height: 100%;
+    background-color: rgb(199, 151, 150);
+
+}
+.line{
+     position: absolute;
+    z-index: 5;
+    top: 120px;
+
+    left: 0px;
+    bottom: 0;
+    width: 1380px;
+    height: 30px;
+
+    background-color: rgba(151, 196, 199, 0.5);
+}
+
+ .pic{
+
+ 
+/*-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 1px 37px 10px rgba(178,74,255,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 1px 37px 10px rgba(178,74,255,0);
+border: 4px hidden #1C6EA4;
+border-radius: 40px 39px 40px 40px;*/
+
+    	position: absolute;
+    	z-index: 5;
+    	left: 250px;
+    	top: 190px;
+    	border-width: 100%;
+-webkit-box-shadow:2px 0px 100px 33px #689bb4 inset,-50px -50px 100px 0px #f4cfcf ;
+-moz-box-shadow:2px 0px 100px 33px #689bb4 inset,-50px -50px 100px 0px #f4cfcf ;
+box-shadow:2px 0px 100px 33px #689bb4 inset,-50px -50px 100px 0px #f4cfcf ;
+opacity: 0.4;
+width: 50px;
+    }
+    
+    #pic1{
+    	left: 950px;
+        width: 50px;
+    }
+    #pic2{
+        top: 450px;
+    }
+    #pic3{
+    	top: 450px;
+    	left: 600px;
+    }
+    #pic4{
+    	top: 450px;
+    	left:  950px;
+    }
+    #pic5{
+        left: 600px;
+    }
+    img{
+width: 180px;
+height: 180px;
+border: grey solid  2px;
+    }
+
+  .sq{
+    width: 30%;
+    background-color: rgba(64, 11, 29, 0.3);
+    float: left;
+    padding-bottom: 25%;
+    top: 20px;
+    bottom: 10%;
+    margin: 1.32%;
+    position: relative;
+    border-radius: 10px;
+    border-color: rgba(64, 11, 29, 1);
+    border: 3px;
+    transition: background 0.6s;
+    --weblit-transition: background 0.6s;
+    -moz-transition: 0.6s;
+  }
+  #c{
+    position: absolute;
+    padding: 5%;
+    width: 56%;
+    height: 50%;
+    top: 20%;
+    left: 17%;
+    border: 10px pink;
+
+  
+  }
+
+
+  .todo{
+
+    background-color: red;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(199, 151, 190);
+
+  }
+  h1{
+border-bottom:20px double rgb(4%, 29%, 33%, 0.3);
+z-index: 10;
+  }
+  #play{
+  background: rgb(190,151,190);
+background: linear-gradient(90deg, rgba(190,151,190,1) 0%, rgba(161,130,161,0.9514180672268907) 51%, rgba(190,151,190,1) 100%);
+    width: 300px;
+    border-top:20px double rgb(4%, 29%, 33%, 0.3);
+    top: 38%;
+    left: 36%;
+    z-index: 4;
+    position: relative;
+    
+  }
+  ul{
+    
+       list-style-type: none;
+       margin: 0;
+       padding-top: 0;
+
+ 
+  }
+  li{
+    position: relative;
+    top: 38px;
+    width: 295px;
+    height: 40px;
+    line-height: 40px;
+    left: 0;
+    margin-left: -36px;
+    float: left;
+
+
+  }
+  li:nth-child(2n){
+    background-color: #a16d7f;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 4px 4px 12px #A16D7F;;
+  }
+.completed{
+    color: grey;
+   text-decoration:line-through;
+}
+  input{
+   position: absolute;
+   text-decoration: none;
+       list-style-type: none;
+
+  background-color: pink;
+  width: 100%;
+  height: 39px;
+  border: 5px solid rgb(4%, 29%, 33%, 0.3);
+  font-size: 20px;
+  word-spacing: 3px;
+  "font-family" : "Arbutus",
+    "active" : false
+  font-weight: 4px;
+  box-sizing: border-box;
+
+
+
+  }
+  input:focus{
+    background-color: #816181;
+    border: none;
+    text-decoration: none;
+  }
+span{
+     margin-right:20px ;
+     height: 35px;
+     text-align: center;
+     color: white;
+     background: #4b0e4b;
+     display: none;
+     transition: 2.0s linear;
+      cursor: alias;
+      width: 40px;
+      opacity: 0;
+    }
+
+li: hover li span{
+    display: inline-block;
+    
+    opacity: 10;
+}
